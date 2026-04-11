@@ -2,35 +2,35 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohit Morya | Portfolio</title>
+  <meta name="description"
+    content="Mohit Morya is a Full Stack Developer specializing in MERN stack (MongoDB, Express, React, Node.js). Explore portfolio and projects.">
 
-    <title>Mohit Morya | Full Stack Developer | MERN Stack Developer</title>
+  <meta name="keywords"
+    content="Mohit Morya, Full Stack Developer, MERN Stack Developer, React Developer, Node.js Developer, Web Developer Portfolio">
 
-    <meta name="description" content="Mohit Morya is a Full Stack Developer specializing in MERN stack (MongoDB, Express, React, Node.js). Explore portfolio and projects.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Mohit Morya">
 
-    <meta name="keywords" content="Mohit Morya, Full Stack Developer, MERN Stack Developer, React Developer, Node.js Developer, Web Developer Portfolio">
+  <link rel="canonical" href="https://mohitmorya.com">
 
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Mohit Morya">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mohit Morya | Full Stack Developer">
+  <meta property="og:description" content="Portfolio of Mohit Morya - MERN Stack Developer.">
+  <meta property="og:url" content="https://mohitmorya.com">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://mohitmorya.com/preview.jpg">
 
-    <link rel="canonical" href="https://mohitmorya.com">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mohit Morya | MERN Stack Developer">
+  <meta name="twitter:description" content="Full Stack Developer portfolio with projects and skills.">
+  <meta name="twitter:image" content="https://mohitmorya.com/preview.jpg">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Mohit Morya | Full Stack Developer">
-    <meta property="og:description" content="Portfolio of Mohit Morya - MERN Stack Developer.">
-    <meta property="og:url" content="https://mohitmorya.com">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://mohitmorya.com/preview.jpg">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Mohit Morya | MERN Stack Developer">
-    <meta name="twitter:description" content="Full Stack Developer portfolio with projects and skills.">
-    <meta name="twitter:image" content="https://mohitmorya.com/preview.jpg">
-
-    <!-- Structured Data -->
-    <script type="application/ld+json">
+  <!-- Structured Data -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
@@ -40,49 +40,114 @@
       "knowsAbout": ["MERN Stack", "React", "Node.js", "MongoDB"]
     }
     </script>
-
-    <style>
-        body {
-            margin: 0;
-        }
-
-        .container {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-        }
-
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-
-        /* Minimal SEO text (tiny + non-intrusive but visible) */
-        .seo-text {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            font-size: 10px;
-            color: #666;
-            background: rgba(255,255,255,0.5);
-            padding: 5px;
-            z-index: 1;
-        }
-    </style>
-
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
 
-    <div class="container">
-        <iframe src="https://gamma.app/embed/tuse5ozxr4r0aer"></iframe>
+  <div class="bg"></div>
 
-        <!-- ✅ Small visible SEO content -->
-        <div class="seo-text">
-            Mohit Morya - Full Stack Developer | MERN Stack | React | Node.js | MongoDB Portfolio
-        </div>
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="logo"><b>Mohit Morya</b></div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+      ☰
     </div>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#about" onclick="closeMenu()">About</a>
+      <a href="#skills" onclick="closeMenu()">Skills</a>
+      <a href="#exp" onclick="closeMenu()">Experience</a>
+      <a href="#projects" onclick="closeMenu()">Projects</a>
+      <a href="#contact" onclick="closeMenu()">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Mohit Morya</h1>
+      <p class="subtitle">
+        Full-Stack Engineer specializing in scalable backend systems, APIs, microservices, and cloud applications.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn" href="Mohit Morya Resume.pdf" download>📄 Download CV</a>
+        <a class="btn" href="#projects">🚀 View Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About</h2>
+    <div class="card">
+      Full-stack developer focused on backend systems, APIs, and scalable architecture.
+      Strong experience in enterprise applications and cloud-native systems.
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <span class="tag">Node.js</span>
+      <span class="tag">React</span>
+      <span class="tag">Angular</span>
+      <span class="tag">Express</span>
+      <span class="tag">MongoDB</span>
+      <span class="tag">MySQL</span>
+      <span class="tag">AWS</span>
+      <span class="tag">GCP</span>
+      <span class="tag">Microservices</span>
+      <span class="tag">REST APIs</span>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="exp">
+    <h2>Experience</h2>
+
+    <div class="card">Cognizant — Associate Project (2024–Present)</div>
+    <div class="card">Accenture — Application Development Analyst (2021–2024)</div>
+    <div class="card">Antino Labs — Backend Developer (2021)</div>
+    <div class="card">Webkul — Software Engineer (2021)</div>
+    <div class="card">Dreamer Technoland — Software Engineer (2019–2021)</div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">Coca-Cola Platform — GCP Microservices</div>
+    <div class="card">CLA System — Enterprise Solution</div>
+    <div class="card">NGP Nora — Reservation System</div>
+    <div class="card">Mitra Leader — Hiring Platform APIs</div>
+    <div class="card">Stock Management System</div>
+    <div class="card">OxygenXL — Integration System</div>
+    <div class="card">Avenida — Construction Management System</div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+
+    <div class="card">Email: <a href="mailto:mohitmorya97@gmail.com">mohitmorya97@gmail.com</a></div>
+    <div class="card">Phone: <a href="tel:+918010857177">+91 8010857177</a></div>
+    <div class="card">LinkedIn: <a target="_blank" href="https://linkedin.com/in/mohit-morya-427b7a141">Profile</a>
+    </div>
+    <div class="card">Location: Ghaziabad, India</div>
+  </section>
+
+  <!-- AI -->
+  <div class="ai-btn" onclick="toggleAI()">🤖</div>
+
+  <div class="ai-box" id="aiBox">
+    <div id="chatLog" class="chat-log"></div>
+    <input id="aiInput" placeholder="Ask about Mohit..." onkeypress="if(event.key==='Enter') askAI()" />
+  </div>
+  <script src="index.js"></script>
 
 </body>
 
